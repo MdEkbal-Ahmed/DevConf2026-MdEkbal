@@ -1,0 +1,81 @@
+
+.navbar{
+    background-color: white;
+    border-bottom: 1px solid #dddddd;
+    padding: 20px 0;
+}
+
+.container{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+
+.logo a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Menu */
+
+.menu{
+    list-style: none;
+    display: flex;
+}
+
+.menu li{
+    margin-left: 25px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #555555;
+    font-size: 16px;
+}
+
+.menu li a:hover{
+    color: #2F5BFF;
+}
+
+/* Register Button */
+
+.button a{
+    text-decoration: none;
+    background-color: #2F5BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.button a:hover{
+    background-color: #1f46d6;
+}
+
+
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Container */
+
+.container{
+    width:1100px;
+    margin:auto;
+}
