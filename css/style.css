@@ -266,3 +266,61 @@ body{
     background:white;
     color:#2F5BFF;
 }
+
+/* ==========================
+      HACKATHON
+========================== */
+
+.hackathon{
+    background:#0f172a;
+    color:white;
+    padding:80px 0;
+    text-align:center;
+}
+
+.hackathon-content{
+    width:1100px;
+    margin:auto;
+}
+
+.hackathon h2{
+    font-size:36px;
+    margin-bottom:20px;
+}
+
+.hackathon-content > p{
+    width:700px;
+    margin:0 auto 40px;
+    line-height:1.6;
+}
+
+
+.hackathon-info{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:40px;
+}
+
+.info-box{
+    width:31%;
+    background:#1e293b;
+    padding:25px;
+    border-radius:8px;
+}
+
+.info-box h3{
+    margin-bottom:10px;
+}
+
+.hackathon-btn{
+    display:inline-block;
+    background:#2F5BFF;
+    color:white;
+    text-decoration:none;
+    padding:12px 25px;
+    border-radius:5px;
+}
+
+.hackathon-btn:hover{
+    background:#2147d9;
+}
