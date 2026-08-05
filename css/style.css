@@ -324,3 +324,58 @@ body{
 .hackathon-btn:hover{
     background:#2147d9;
 }
+
+
+
+.footer{
+    background:#0f172a;
+    color:white;
+    padding:40px 80px;
+}
+
+.footer-top{
+    width:1100px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.footer-logo img{
+    width:110px;
+}
+
+.social-links a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-size:15px;
+}
+
+.social-links a:hover{
+    color:#2F5BFF;
+}
+
+.footer hr{
+    width:1100px;
+    margin:25px auto;
+    border:none;
+    border-top:1px solid #333;
+}
+
+.copyright{
+    text-align:center;
+    font-size:14px;
+    color:#bdbdbd;
+}
+
+.footer-icons{
+    list-style:none;
+    display:flex;
+    gap:15px;
+}
+
+.footer-icons img{
+    width:24px;
+    height:24px;
+}
